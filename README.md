@@ -6,5 +6,14 @@ since i'm planning to write this in JS/HTML, full disclosure: some ai will be us
 
 this is mostly a passion/personal project, and i mostly put it here just to have some form of pressure. if you somehow see this and find a bug, or have a feature request or anything like that, feel free to add an issue or smth :D
 
+## roadmap/todo
+- [ ] rewrite code so it's not AI
+- [ ] add theming
+- [ ] add audio sync
+- [ ] make json format easier to edit
+- [ ] better romanisation
+- [ ] phrase highlighting
+
+
 ## license
 MIT
