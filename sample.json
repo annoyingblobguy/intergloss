@@ -1,0 +1,78 @@
+{
+  "_comment": "Each frame is one word-highlight step. Repeat orig/trans for each word in a line.",
+  "_comment2": "orig_span: [start, end) char indices in orig. trans_span: [start, end) word indices in trans (split by space).",
+  "frames": [
+    {
+      "orig": "我每天吃饭",
+      "trans": "I eat food every day",
+      "focus": {
+        "orig_span": [0, 1],
+        "trans_span": [0, 1],
+        "literal": "我 (wǒ) — I, me"
+      }
+    },
+    {
+      "orig": "我每天吃饭",
+      "trans": "I eat food every day",
+      "focus": {
+        "orig_span": [1, 2],
+        "trans_span": [3, 4],
+        "literal": "每 (měi) — every, each, per"
+      }
+    },
+    {
+      "orig": "我每天吃饭",
+      "trans": "I eat food every day",
+      "focus": {
+        "orig_span": [2, 3],
+        "trans_span": [4, 5],
+        "literal": "天 (tiān) — day; sky; heavens\n每天 = every day (set phrase)"
+      }
+    },
+    {
+      "orig": "我每天吃饭",
+      "trans": "I eat food every day",
+      "focus": {
+        "orig_span": [3, 4],
+        "trans_span": [1, 2],
+        "literal": "吃 (chī) — to eat\n吃饭 = to eat (lit. eat rice/meal)"
+      }
+    },
+    {
+      "orig": "我每天吃饭",
+      "trans": "I eat food every day",
+      "focus": {
+        "orig_span": [4, 5],
+        "trans_span": [2, 3],
+        "literal": "饭 (fàn) — cooked rice; meal; food\n吃饭 = to eat (common phrase)"
+      }
+    },
+    {
+      "orig": "你好吗",
+      "trans": "How are you",
+      "focus": {
+        "orig_span": [0, 1],
+        "trans_span": [2, 3],
+        "literal": "你 (nǐ) — you (singular)"
+      }
+    },
+    {
+      "orig": "你好吗",
+      "trans": "How are you",
+      "focus": {
+        "orig_span": [1, 2],
+        "trans_span": [1, 2],
+        "literal": "好 (hǎo) — good, well, fine\n你好 = hello (lit. you good)"
+      }
+    },
+    {
+      "orig": "你好吗",
+      "trans": "How are you",
+      "focus": {
+        "orig_span": [2, 3],
+        "trans_span": [0, 1],
+        "literal": "吗 (ma) — question particle\nturns statement into yes/no question"
+      }
+    }
+  ]
+}
