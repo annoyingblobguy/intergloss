@@ -1,5 +1,5 @@
 # intergloss
-Intergloss is a tool that I'm (planning to) make (but probably will abandon) that basically does an interlinear gloss animation. It syncs word-by-word annotations to song lyrics or other audio, highlighting each word in the original and its translation simultaneously, with a tooltip showing the literal meaning.
+Intergloss is a tool that I'm (planning to) make (but probably will abandon) that basically does an interlinear gloss-esque animation. It syncs word-by-word annotations to song lyrics or other audio, highlighting each word in the original and its translation simultaneously, with a tooltip showing the literal meaning.
 
 ## disclosure & status
 since i'm planning to write this in JS/HTML, full disclosure: some ai will be used, since I am somewhat of a beginner in coding. however, i will try my best to understand the AI code, and replace it with my own when i understand.
